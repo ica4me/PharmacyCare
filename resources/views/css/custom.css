@@ -1,0 +1,98 @@
+* {
+    font-family: 'cabin', sans-serif;
+}
+
+.inter {
+    font-family: 'inter', sans-serif;
+}
+
+.fs-7 {
+    font-size: 12px;
+}
+
+.img-overview {
+    height: 328px;
+    object-fit: cover;
+}
+
+.mt-32 {
+    margin-top: 32px;
+}
+
+.mb-32 {
+    margin-bottom: 32px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.color-secondary {
+    background-color: rgba(222, 226, 230, 1);
+}
+
+.bg-banner-about-us {
+    background-image: url(../image/banner-about\ us.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-banner-product {
+    background-image: url(../image/banner-product.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-banner-investor {
+    background-image: url(../image/banner-investor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-banner-news {
+    background-image: url(../image/banner-news.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-banner-contact-us {
+    background-image: url(../image/banner-contact-us.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.mt-70-fixed {
+    margin-top: 70px;
+}
+
+@media (min-width: 992px) {
+    .img-overview {
+        height: 425px;
+        object-fit: cover;
+    }
+
+    .mt-80 {
+        margin-top: 80px;
+    }
+
+    .mb-80 {
+        margin-bottom: 80px;
+    }
+
+    .mt-100 {
+        margin-top: 100px;
+    }
+
+    .width-25 {
+        width: 25%;
+    }
+}
